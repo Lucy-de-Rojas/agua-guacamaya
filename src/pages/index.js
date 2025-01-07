@@ -9,7 +9,9 @@ export default function Home() {
 
   return (<Layout>
 
-    <h1>Agua Guacamaya</h1>
+    <h1>Welcome to Agua Guacamaya</h1>
+
+    <p>We do lovely water</p>
 
 
 

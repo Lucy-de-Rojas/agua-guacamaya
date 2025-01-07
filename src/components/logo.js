@@ -102,7 +102,7 @@ export default function Logo () {
 
 
 
-return (<div className="bg-blue-400">
+return (<div className="bg-[var(--dark-blue)]">
 
 
 <svg id="Logo" width={size} height={size} viewBox="0 0 100 100" onClick={handleClick}>

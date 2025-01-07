@@ -3,11 +3,48 @@
 @tailwind utilities;
 
 
+
+
+
+
+
+:root {
+        --dark-blue: #020381;
+        --light-blue: #2874FC;
+
+
+}
+
+
+
+@font-face {
+        font-family: "pacifico";
+        src: url("../../public/Fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+        font-family: "robotoREG";
+        src: url("../../public/Fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+        font-family: "robotoBOLD";
+        src: url("../../public/Fonts/RobotoCondensed-Bold.ttf");
+}
+
+
+@font-face {
+        font-family: "robotoLIGHT";
+        src: url("../../public/Fonts/RobotoCondensed-Light.ttf");
+}
+
+
 body, html {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
         transition: all 2s linear;
+        font-family: "RobotoREG";
 }
 
 
@@ -21,4 +58,7 @@ body, html {
 h1 {
         font-size: xx-large;
         font-weight: bolder;
+        font-family: "pacifico";
+        color: var(--dark-blue);
+
 }
