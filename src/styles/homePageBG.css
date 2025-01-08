@@ -1,6 +1,11 @@
 
 body {
-        background-image: linear-gradient(rgb(0, 9, 122), rgb(143, 177, 252));
+
+
+background-image: linear-gradient(to bottom,  rgb(1, 6, 66) 60%, rgb(143, 177, 252));
+
+
+
         background-repeat: no-repeat;
         height: 100vh;
 
