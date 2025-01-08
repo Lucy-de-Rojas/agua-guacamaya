@@ -2,7 +2,6 @@ import Image from "next/image";
 import Layout from "@/components/layout";
 import Head from "next/head";
 
-// import "@/styles/homePageBG.css";
 
 
 export default function Home() {
@@ -10,8 +9,8 @@ export default function Home() {
 
 
 
-  return (<Layout>
-<div className="text-white p-5 text-3xl">
+  return (<Layout >
+<div className="text-white p-5 text-3xl ">
 
 
     <p className="text-6xl mb-5  font-[robotoBOLD]">Welcome to Agua Guacamaya</p>

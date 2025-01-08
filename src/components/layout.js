@@ -1,7 +1,8 @@
-import TopBar from "./topBar";
 import Head from "next/head";
 
-import {  useState  } from "react";
+
+import TopBar from "./topBar";
+import BottomNav from "./bottomNav";
 
 
 
@@ -19,6 +20,7 @@ return (<div className="text-center">
 
 
         <TopBar />
+        <BottomNav />
 
 
 

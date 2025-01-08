@@ -9,7 +9,7 @@ export default function TopBar () {
 
 
 
-return (<div className="flex items-center justify-between ">
+return (<div className="flex items-center justify-between  ">
 <Logo menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
 <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}  />
