@@ -2,7 +2,7 @@ import Image from "next/image";
 import Layout from "@/components/layout";
 import Head from "next/head";
 
-import "@/styles/homePageBG.css";
+// import "@/styles/homePageBG.css";
 
 
 export default function Home() {
