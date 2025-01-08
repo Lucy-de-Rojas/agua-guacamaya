@@ -1,98 +1,32 @@
-import { useState } from "react";
+import { useState,createContext,  useContext } from "react";
+
+import { logoCirclesFULL } from "@/utils/logoCirclesFull";
 
 
 
 
+export default function Logo ({menuOpen, setMenuOpen}) {
 
 
-export default function Logo () {
 
-        const [menuOpen, setMenuOpen] = useState(false);
 
         let circlesTransition = "transition-all duration-700  ease-linear";
 
 
+        // svg (logo) size:
+        let size = "150px";
 
-        let size = "170px";
+
+        // original size:  18.549    12.816    48.653    59.058
+        let viewBox1 = "12 " // x pos
+        let viewBox2 = "-2 "   // y   pos
+        let viewBox3 = "70 "    // width
+        let viewBox4 = "80"    // height
+        let viewBox = viewBox1 + viewBox2 + viewBox3 + viewBox4
+
 
         function handleClick() {
-
-                let circle1 = document.getElementById("circle1");
-                let circle2 = document.getElementById("circle2");
-                let circle3 = document.getElementById("circle3");
-                let circle4 = document.getElementById("circle4");
-
-
-
-
-                if(!menuOpen) {
-                        setMenuOpen(!menuOpen);
-
-
-                        circle1.style.r = "5";
-                        circle1.style.cy="13";
-                        circle1.style.cx = "31";
-
-
-
-
-                //  cx="59.667" cy="19.607" r="5.352"
-                        circle2.style.r = "2.5";
-                        circle2.style.cy = "14";
-                        circle2.style.cx = "56";
-
-
-
-                        // cx="29.201" cy="48.597" r="5.352"
-                        circle3.style.r = "4";
-                        circle3.style.cy = "40";
-                        circle3.style.cx = "28";
-
-
-                           // cx="54.879" cy="58.89" r="11.183"
-                        circle4.style.r = "8";
-                        circle4.style.cy = "30";
-                        circle4.style.cx = "50";
-
-
-                }
-                else {
-                        setMenuOpen(!menuOpen);
-
-                        circle1.style.r = "";
-                        circle1.style.cy="";
-                        circle1.style.cx = "";
-
-
-                        //  cx="59.667" cy="19.607" r="5.352"
-                        circle2.style.r = "";
-                        circle2.style.cy = "";
-                        circle2.style.cx = "";
-
-
-                        // cx="29.201" cy="48.597" r="5.352"
-                        circle3.style.r = "";
-                        circle3.style.cy = "";
-                        circle3.style.cx = "";
-
-
-
-                        // cx="54.879" cy="58.89" r="11.183"
-                        circle4.style.r = "";
-                        circle4.style.cy = "";
-                        circle4.style.cx = "";
-
-
-
-
-                }
-
-
-
-
-
-
-
+              logoCirclesFULL(menuOpen, setMenuOpen);
         }
 
 
@@ -102,10 +36,10 @@ export default function Logo () {
 
 
 
-return (<div className="bg-[var(--dark-blue)]">
+return (<div className="">
 
 
-<svg id="Logo" width={size} height={size} viewBox="0 0 100 100" onClick={handleClick}>
+<svg id="Logo" width={size} height="150px" viewBox={viewBox} onClick={handleClick} className="" >
 
 
 
