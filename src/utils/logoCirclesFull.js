@@ -11,7 +11,7 @@ export function logoCirclesFULL (menuOpen, setMenuOpen) {
 
 
 
-
+        // opening menu:
         if(!menuOpen) {
                 setMenuOpen(!menuOpen);
 
@@ -21,7 +21,7 @@ export function logoCirclesFULL (menuOpen, setMenuOpen) {
                 circle1.style.cx = "31";
 
 
-                menu.style.left = "3%";
+                menu.style.left = "5%";
 
 
 
@@ -46,6 +46,8 @@ export function logoCirclesFULL (menuOpen, setMenuOpen) {
 
 
         }
+
+        // closing menu:
         else {
                 setMenuOpen(!menuOpen);
 

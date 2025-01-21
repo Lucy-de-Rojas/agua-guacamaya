@@ -15,16 +15,14 @@ export default function Layout ({children}) {
 
 
 
-return (<div className="text-center">
-
-
+return (<div className="text-center overflow-x-scroll h-[91vh] text-3xl text-white ">
 
         <TopBar />
-        <BottomNav />
 
 
 
 {children}
 
 
+        <BottomNav />
 </div>)};

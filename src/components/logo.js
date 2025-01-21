@@ -1,4 +1,4 @@
-import { useState,createContext,  useContext } from "react";
+// import { useState,createContext,  useContext } from "react";
 
 import { logoCirclesFULL } from "@/utils/logoCirclesFull";
 
@@ -14,7 +14,7 @@ export default function Logo ({menuOpen, setMenuOpen}) {
 
 
         // svg (logo) size:
-        let size = "150px";
+        let size = "120px";
 
 
         // original size:  18.549    12.816    48.653    59.058

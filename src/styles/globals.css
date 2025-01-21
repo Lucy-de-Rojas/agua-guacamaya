@@ -6,8 +6,6 @@
 
 
 
-
-
 :root {
         --dark-blue: #020381;
         --light-blue: #2874FC;
@@ -59,7 +57,9 @@ body, html {
 
 
 h1 {
-        font-size: xx-large;
-        font-family: "pacifico";
+        font-size: 130%;
+        line-height: normal;
+        font-family: "robotoBOLD";
+        color: white;
 
 }

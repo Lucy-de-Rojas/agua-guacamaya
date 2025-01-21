@@ -13,7 +13,7 @@ export function closeMenu (menuOpen, setMenuOpen) {
 
 
 
-
+        // opening menu:
         if(!menuOpen) {
                 setMenuOpen(!menuOpen);
 
@@ -23,7 +23,7 @@ export function closeMenu (menuOpen, setMenuOpen) {
                 circle1.style.cx = "31";
 
 
-                menu.style.left = "3%";
+                // menu.style.left = "-50px";
 
 
 
@@ -48,6 +48,8 @@ export function closeMenu (menuOpen, setMenuOpen) {
 
 
         }
+
+        // closing Menu:
         else {
                 setMenuOpen(!menuOpen);
 
