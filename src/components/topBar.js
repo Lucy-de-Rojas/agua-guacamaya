@@ -17,14 +17,20 @@ export default function TopBar () {
 
 
 
+
+
+
 return (<div className="flex items-center justify-between">
 <Logo menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
 <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}  />
 
+
+
+
 {/* tope header text: */}
 
-<div className="w-full flex flex-col justify-center">
+<div className="w-full flex flex-col justify-center landscape:hidden">
         <Link href="/">
 
 {/* main title: */}

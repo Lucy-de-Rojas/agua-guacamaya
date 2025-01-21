@@ -3,6 +3,10 @@ import Layout from "@/components/layout";
 import Head from "next/head";
 
 
+import { responsiveStylesMainContainer } from "@/utils/responsiveStyles";
+import HR from "@/components/hr";
+
+
 
 export default function Home() {
 
@@ -10,12 +14,11 @@ export default function Home() {
 
 
   return (<Layout >
-<div className="px-5">
 
 
     <h1>Welcome to Agua Guacamaya</h1>
 
-<hr className="my-3"/>
+<HR />
 
 
     <p className="font-[robotoLIGHT]">Discover the pristine beauty of the Colombian Andes in every sip.
@@ -33,7 +36,6 @@ Our water is naturally filtered through layers of volcanic rock, ensuring except
 
 
 
-</div>
 
 
 
